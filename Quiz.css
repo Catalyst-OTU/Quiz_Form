@@ -1,0 +1,112 @@
+body{
+    font-family: 'Lacquer', sans-serif;
+    background-color: #6cf;
+}
+
+
+h1{
+    font-family: 'Lacquer', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+height: 380px;
+width: 800px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+background-color: darkorchid;
+padding: 20px;
+border: 2px solid black;
+border-radius: 20px;
+
+}
+
+.title{
+    top: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.Questionq{
+padding: 20px;
+font-size: 25px;
+background-color: violet;
+border-radius: 8px;
+margin: 10px 0px 10px 0px;
+
+}
+
+.option{
+    width: 300px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    vertical-align: middle;
+    background-color:blanchedalmond;
+    margin:10px 0 10px 0 ;
+    border-radius: 20px;
+}
+
+.option:hover{
+    background-color: darkslategrey;
+    color: ghostwhite;
+}
+
+#next-button{
+border: none;
+outline:none;
+background-color: indianred;
+width: 100px;
+height: 30px;
+border-radius: 15px;
+cursor: pointer;
+float:center;
+text-align: center;
+margin: 10px;
+}
+
+#next-button:hover{
+background-color: cornsilk;
+color: rgb(143, 211, 211);
+}
+
+.resultContainer{
+margin-top: 250px;
+height: 100px;
+text-align: center;
+font-size: 70px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            */
+
+
+/* .option input:checked .option{
+    background-color: darkorchid;
+    color: black;
+} */
+
+#next-button{
+    margin-left: 580px;
+
+}
+
+
+
+#clickButton{
+    border: none;
+    outline:none;
+    background-color: indianred;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    float:center;
+    margin: 10px;
+}
+
+#clickButton:hover{
+    background-color: cornsilk;
+    color: rgb(143, 211, 211);
+}
